@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="312cdcf1-982c-4a8e-87de-96ec10903df4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bundle.c4c9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.c4c9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +21,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.7813073">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="334">
-                  <caret line="60" column="12" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="101" />
+                <state relative-caret-position="187">
+                  <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
                 </state>
               </provider>
             </entry>
@@ -31,8 +33,17 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dist/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="26" column="83" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+                <state>
+                  <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.c4c9.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/dist/main.c4c9.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="46">
+                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
                 </state>
               </provider>
             </entry>
@@ -83,11 +94,6 @@
               <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
-          <file leaf-file-name="2f4d8b6344021a986f70de6b88120581.png" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dist/public/2f4d8b6344021a986f70de6b88120581.png">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
           <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/webpack.config.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -114,8 +120,8 @@
         <option value="$PROJECT_DIR$/scss/variables.scss" />
         <option value="$PROJECT_DIR$/img/site.webmanifest" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
       </list>
     </option>
   </component>
@@ -209,7 +215,7 @@
       <updated>1575759698299</updated>
       <workItem from="1575759701123" duration="12625000" />
       <workItem from="1575820838275" duration="2370000" />
-      <workItem from="1575826387443" duration="769000" />
+      <workItem from="1575826387443" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="imagen para redes sociales">
       <created>1575826528496</created>
@@ -225,11 +231,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575827083028</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nuevo build con las redes">
+      <created>1575827413113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575827413113</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15764000" />
+    <option name="totallyTimeSpent" value="16094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -239,7 +252,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3297414" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32938644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297414" />
@@ -262,7 +275,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="imagen para redes sociales" />
-    <option name="LAST_COMMIT_MESSAGE" value="imagen para redes sociales" />
+    <MESSAGE value="nuevo build con las redes" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuevo build con las redes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -391,17 +405,27 @@
     <entry file="file://$PROJECT_DIR$/dist/public/af00f05dd478ab258268ee3c8e6a2ca4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="26" column="83" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+        <state relative-caret-position="187">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="101" />
+        <state>
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/main.2da9.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/main.c4c9.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
