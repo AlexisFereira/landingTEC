@@ -1,0 +1,33 @@
+[debug] [2019-12-08T17:45:02.797Z] ----------------------------------------------------------------------
+[debug] [2019-12-08T17:45:02.799Z] Command:       /usr/local/bin/firebase /home/alejo/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2019-12-08T17:45:02.799Z] CLI Version:   7.9.0
+[debug] [2019-12-08T17:45:02.799Z] Platform:      linux
+[debug] [2019-12-08T17:45:02.799Z] Node Version:  v10.15.3
+[debug] [2019-12-08T17:45:02.800Z] Time:          Sun Dec 08 2019 12:45:02 GMT-0500 (GMT-05:00)
+[debug] [2019-12-08T17:45:02.800Z] ----------------------------------------------------------------------
+[debug] [2019-12-08T17:45:02.800Z] 
+[debug] [2019-12-08T17:45:02.805Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-08T17:45:02.805Z] > authorizing via signed-in user
+[debug] [2019-12-08T17:45:02.806Z] [iam] checking project landing-empleo for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-12-08T17:45:02.807Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/landing-empleo:testIamPermissions  
+
+[debug] [2019-12-08T17:45:03.753Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-08T17:45:03.761Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/landing-empleo  
+ 
+[debug] [2019-12-08T17:45:04.566Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'landing-empleo'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-12-08T17:45:04.581Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/landing-empleo/versions  
+
+[debug] [2019-12-08T17:45:06.499Z] <<< HTTP RESPONSE 200
+[info] i  hosting[landing-empleo]: beginning deploy...
+[info] i  hosting[landing-empleo]: found 7 files in ./dist
+[debug] [2019-12-08T17:45:06.521Z] [hosting] hash cache [ZGlzdA] stored for 7 files
+[debug] [2019-12-08T17:45:06.521Z] [hosting][hash queue][FINAL]
+[debug] [2019-12-08T17:45:06.521Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/landing-empleo/versions/86b866265afdeafd:populateFiles  
+ <request body omitted>
+[debug] [2019-12-08T17:45:07.730Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-08T17:45:07.736Z] [hosting][populate queue][FINAL]
+[debug] [2019-12-08T17:45:07.737Z] [hosting] uploads queued: 1
